@@ -22,10 +22,10 @@
         <td><?php echo $value['name'];?></td>
         <td><?php echo $value['price'];?></td>
         <td><?php echo $value['description'];?></td>
-        <td><?php echo $value['category'];?></td>
+        <td><?php echo $value['category_name'];?></td>
     </tr>
    </tbody>
-      
+    <?php }?>
   </table>
 </body>
 </html>
