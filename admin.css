@@ -1,0 +1,101 @@
+#listTableHeader {
+	font-family: "Courier New", Courier, mono;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #7F92A4;
+	font-weight: bold;
+	background-position: center;
+}
+
+.box {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #336699;
+}
+
+.row1 {
+	background-color: #EFEFEF;
+}
+
+.row2 {
+	background-color: #DEDEDE;
+}
+
+.errorMessage {
+	font-family: "Courier New", "Courier", "mono";
+	font-size: 12px;
+	font-weight: bolder;
+	color: #CC3300;
+}
+
+.text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.contentArea {
+	background-color: #FFFFFF;
+}
+
+.graybox {
+	background-color: #666666;
+}
+
+
+/* Start Left Navigation */
+.navArea {
+	background-color: #FFFFFF;
+}
+a.leftnav {
+	font-family: "Courier New", Courier, mono;
+	font-size: 14px;
+	color: #333333;
+	background-color: #AABBCC;
+	display: block;
+	padding: 2px 2px 2px 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+	height: 25px;
+	width: 150px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.leftnav:hover {
+	font-family: "Courier New", Courier, mono;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #999999;
+	display: block;
+	padding: 2px 2px 2px 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+	height: 25px;
+	width: 150px;
+	text-decoration: none;
+	font-weight: bold;
+}
+/* End Left Navigation */
+
+/* Start Content. Add, Modify Pages */
+.formTitle {
+	font-family: "Courier New", Courier, mono;
+	font-size: 16px;
+	font-weight: bold;
+}
+.entryTable {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #DDDDDD;
+}
+
+.entryTable .label {
+	background-color: #EFEFEF;
+}
+
+.entryTable .content {
+	background-color: #FFFFFF;
+}
+/* End Content. Add, Modify Pages */
