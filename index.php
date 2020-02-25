@@ -1,3 +1,3 @@
 <?php 
-include (products/index.php);
+include (products/index.php?view=list);
 ?>
