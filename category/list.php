@@ -1,7 +1,7 @@
 <html>
 <body>
 <?php
-	include ("function/apifc.php");
+	include ("../function/apifc.php");
 	$categories = $apis->get_categories();
   ?>
   <table border = "1">
