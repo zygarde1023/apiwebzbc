@@ -14,11 +14,11 @@
   require_once 'template.php';
   ?>
   
-  <form method = "post">
-					<span class="input-group-text" id="search">
-					<input type="text" id="search" name = "keyword" class="input-group-text" placeholder="Search now"  >
-					<input type = "submit" class="btn btn-primary mr-2">
-					</span>
+ 	 <form method = "post" class = "input-group-prepend">
+		<span class="input-group-text" id="search">
+		<input type="text" id="search" name = "keyword" class="input-group-text" placeholder="Search now"  >
+		<input type = "submit" class="btn btn-primary mr-2" value = "Search">
+		</span>
 	</form>
   <table border = "1">
    <thead>
