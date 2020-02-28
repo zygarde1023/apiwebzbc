@@ -82,7 +82,6 @@ $username = $_GET['username'];
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item"> <a class="nav-link" href="index.php?view=cat_list">View</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#">Create</a></li>
               </ul>
             </div>
           </li>
