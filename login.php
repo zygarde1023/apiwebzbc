@@ -107,7 +107,7 @@
 			?>
 			<br>
 			<br>
-			<div id="my-signin2" data-onsuccess="onSuccess" data-redirecturi="https://apiwebzbc.herokuapp.com/"></div>
+			<div id="my-signin2" data-onsuccess="onSuccess" data-redirecturi="https://apiwebzbc.herokuapp.com/index.php?view=list"></div>
 			<script>
     function onSuccess(googleUser) {
         window.location="https://apiwebzbc.herokuapp.com/index.php?view=list";
