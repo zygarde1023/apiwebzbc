@@ -16,7 +16,7 @@
 <h1>Welcome, <?php echo $_SESSION['user_first_name'] ?> <?php echo $_SESSION['user_last_name'] ?>! </h1>
 
 <br><br>
-<a href="logout.php"><div class="btn-danger btn-rounded mdi mdi-logout" >Logout</div></a>
+<a href="logout.php"><button type = "button" class="btn-danger btn-rounded mdi mdi-logout" >Logout</button></a>
 
 
 <script src="vendors/base/vendor.bundle.base.js"></script>
