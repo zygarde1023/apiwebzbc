@@ -10,4 +10,4 @@
 <h1>Welcome, <?php echo $_SESSION['user_first_name'] ?> <?php echo $_SESSION['user_last_name'] ?>! </h1>
 
 <br><br>
-<a href="logout.php"><i class="mdi mdi-logout"><div class="btn-danger btn-rounded" >Logout</div></i></a>
+<a href="logout.php"><div class="btn-danger btn-rounded mdi mdi-logout" >Logout</div></a>
