@@ -63,7 +63,7 @@ $username = $_GET['username'];
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="index.php">View</a></li>
+                <li class="nav-item"> <a class="nav-link" href="index.php?view=list">View</a></li>
                 <li class="nav-item"> <a class="nav-link" href="index.php?view=create">Create</a></li>
               </ul>
             </div>
