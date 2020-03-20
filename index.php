@@ -38,7 +38,7 @@ switch ($view) {
 		break;
 		
 	default :
-		$content 	= 'products/index.php';
+		$content 	= 'main.php';
 		$pageTitle = 'Products';
 		$username = 'ZBC';
 }
@@ -85,7 +85,7 @@ switch ($view) {
 		break;
 		
 	default :
-		$content 	= 'products/index.php';
+		$content 	= 'main.php';
 		$pageTitle = 'Products';
 		$username = 'ZBC';
 	}
