@@ -32,7 +32,7 @@ switch ($view) {
 		break;
 		
 	default :
-		$content 	= 'products/index.php';
+		$content 	= 'login.php';
 		$pageTitle = 'Products';
 		$username = 'ZBC';
 }
