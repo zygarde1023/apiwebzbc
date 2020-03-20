@@ -110,7 +110,7 @@
 			<div id="my-signin2" data-onsuccess="onSuccess" data-redirecturi="https://iceinventory.000webhostapp.com/https://iceinventory.000webhostapp.com/?p=admin"></div>
 			<script>
     function onSuccess(googleUser) {
-        window.location="apiwebzbc.herokuapp.com/index.php?view=list";
+        window.location="/index.php?view=list";
     }
     function onFailure(error) {
       console.log(error);
