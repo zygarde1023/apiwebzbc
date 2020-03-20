@@ -102,7 +102,7 @@
 			} else {
 			// replace your website URL same as added in the developers.Facebook.com/apps e.g. if you used http instead of https and you used            
 			$loginUrl = $helper->getLoginUrl('https://apiwebzbc.herokuapp.com/index.php?view=list', $permissions);
-			echo '<a href="' . $loginUrl . '"><div class="fb-login-button" data-width="" data-size="large" data-button-type="login_with" data-layout="default" data-auto-logout-link="true" data-use-continue-as="true"></div></a>';
+			echo '<a href="' . $loginUrl . '"><div class="fb-login-button" data-width="" data-size="large" data-button-type="login_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="true"></div></a>';
 			}
 			?>
 			<br>
