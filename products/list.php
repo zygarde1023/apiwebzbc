@@ -1,5 +1,6 @@
 <html>
 <body>
+<a style = "align: right;" href = "logout.php">Logout</a>
 <?php 
   $json = file_get_contents('http://rdapi.herokuapp.com/product/read.php');
   $data = json_decode($json, true);
