@@ -92,13 +92,11 @@ $username = $_GET['username'];
                   <p class="card-title"><?php echo $pageTitle; ?></p>
                   <div class="table-responsive">
                     <table class="table-bordered">
-                    <tr>
-						<td>
-							<?php
-								include ($content);	 
-							?>
-						</td>
-					</tr>
+          
+			<?php
+				include ($content);	 
+			?>
+					
                     </table>
                   </div>
                 </div>
